@@ -1,0 +1,14 @@
+# Dictionary in json
+# this is information of info.json file
+{
+  "firstName": "Mohamadreza",
+  "lastName": "Kariminejad",
+  "isAlive": true,
+  "age": 18,
+  "address": {
+    "city": "Yasuj",
+    "village": "Karim-Abad"
+  },
+  "children": [],
+  "wife": null
+}
