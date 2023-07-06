@@ -1,0 +1,2 @@
+commands:
+- open() # opening a file in python with output of file object

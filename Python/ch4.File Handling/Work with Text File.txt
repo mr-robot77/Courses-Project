@@ -1,0 +1,8 @@
+commands:
+- read() # reading characters of a file
+- readline() # reading lines of a file
+- write() # writing in file
+- flush() # doing changes in file
+- tell() # file pointer
+- seek() # changing file pointer
+- close() # closing file

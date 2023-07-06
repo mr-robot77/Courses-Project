@@ -1,0 +1,8 @@
+commands:
+- : instead of = # for attribution
+- " instead of ' # for strings
+- import json
+- loads # converting a string in json to python
+- dumps # converting python to json
+- load # converting a json file to python
+- dump # converting a object in python to json
