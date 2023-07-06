@@ -1,0 +1,16 @@
+commands:
+- getcwd() # getting pointer address
+- chdir() # change pointer address
+- listdir() # contents of current address like as: list of all files and folders
+- mkdir() # creating new folder
+- rmdir() # removing an empty folder
+- remove() # removing a file
+- rename() # transfer a file to another directory
+- system() # running directly system commands in python terminal
+- walk() # finding all files of a folder
+- path.exists() # existense of a file/folder
+- path.isfile() # found is input a file?
+- path.isdir() # found is input a folder?
+- path.basename() # giving file name of input address
+- path.join() # concat of some strings of name from input to output
+- path.commonprefix() # giving longest common prefix of input in output
