@@ -1,3 +1,19 @@
+# Development
+
+Original code: https://github.com/vedantgoswami/SnakeGameAI
+
+## Setup
+```sh
+virtualenv env --python=3.10
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+## Train
+```sh
+python agent.py
+```
+
 # Snake Game AI 
 AI driven snake game using Reinforcement Learning and Deep Q Learning.<br>
 
