@@ -21,6 +21,8 @@ if not os.path.exists("archive"):
     with zipfile.ZipFile("air-quality-madrid.zip", "r") as zip_ref:
         zip_ref.extractall("archive")
 
+st.write("Files in archive:", os.listdir("archive"))
+
 print("Path to dataset files:", os.path.abspath("archive"))
 
 # Define key pollutants and their units
