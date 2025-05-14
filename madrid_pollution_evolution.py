@@ -164,7 +164,7 @@ fig.update_layout(
         'xanchor': 'center'
     },
     xaxis_title='Year',
-    yaxis_title='Pollutant Concentration (μg/m³)',
+    yaxis_title='Pollutant Concentration',
     xaxis=dict(
         showgrid=False,
         rangeslider=dict(visible=False),
