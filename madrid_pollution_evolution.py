@@ -31,7 +31,7 @@ pollutants = ['SO_2', 'CO', 'NO_2', 'PM10', 'PM25', 'O_3']
 units = {'SO_2': 'μg/m³', 'CO': 'mg/m³', 'NO_2': 'μg/m³', 'PM10': 'μg/m³', 'PM25': 'μg/m³', 'O_3': 'μg/m³'}
 
 # Load and process data
-df_stations = pd.read_csv("archive/stations.csv")
+# df_stations = pd.read_csv("archive/stations.csv")
 
 # df_madrid = pd.concat([pd.read_csv(f"../archive/csvs_per_year/csvs_per_year/madrid_{year}.csv") for year in range(2001, 2019)])
 
@@ -164,7 +164,7 @@ fig.update_layout(
         'xanchor': 'center'
     },
     xaxis_title='Year',
-    yaxis_title='Pollutant Concentration',
+    yaxis_title='Pollutant Concentration (μg/m³)',
     xaxis=dict(
         showgrid=False,
         rangeslider=dict(visible=False),
