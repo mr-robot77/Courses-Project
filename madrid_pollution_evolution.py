@@ -188,10 +188,10 @@ fig.update_layout(
 )
 
 # Set the renderer to "browser"
-pio.renderers.default = "browser"
+#pio.renderers.default = "browser"
 
 # Show the plot
-fig.show()
+#fig.show()
 
 st.set_page_config(layout="wide")
 st.title("Evolution of Pollution in Madrid (2001-2018)")
