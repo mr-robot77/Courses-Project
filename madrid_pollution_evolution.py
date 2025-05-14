@@ -5,6 +5,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.io as pio
 
+st.set_page_config(layout="wide")
 
 # Set up Kaggle API credentials (for Streamlit Cloud)
 if 'KAGGLE_USERNAME' in os.environ and 'KAGGLE_KEY' in os.environ:
@@ -193,6 +194,5 @@ fig.update_layout(
 # Show the plot
 #fig.show()
 
-st.set_page_config(layout="wide")
 st.title("Evolution of Pollution in Madrid (2001-2018)")
 st.plotly_chart(fig, use_container_width=True)
